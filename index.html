@@ -13,8 +13,22 @@
     <h1>今天吃什么</h1>
   </header>
   <main>
+    <div id="input-section">
+      <input type="text" id="new-food-input" placeholder="输入新的食物">
+      <button id="add-food-button">添加食物</button>
+    </div>
+    <div id="category-section">
+      <h2>食物分类</h2>
+      <input type="checkbox" id="category-staple" checked>主食
+      <input type="checkbox" id="category-snack">小吃
+      <input type="checkbox" id="category-drink">饮品
+    </div>
     <button id="randomButton">随机选择</button>
     <div id="foodResult"></div>
+    <div id="food-list">
+      <h2>当前食物列表</h2>
+      <ul id="food-ul"></ul>
+    </div>
   </main>
   <footer>
     <p>Copyright © 2025 [你的名字或公司名]</p>
