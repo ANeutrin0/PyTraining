@@ -14,7 +14,38 @@ header {
 
 main {
   text-align: center;
-  padding: 50px;
+  padding: 30px;
+}
+
+#input-section {
+  margin-bottom: 20px;
+}
+
+#input-section input {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+#input-section button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#category-section {
+  margin-bottom: 20px;
+}
+
+#category-section h2 {
+  margin-bottom: 10px;
+}
+
+#category-section input {
+  margin-right: 5px;
 }
 
 #randomButton {
@@ -29,6 +60,23 @@ main {
 #foodResult {
   margin-top: 30px;
   font-size: 24px;
+}
+
+#food-list {
+  margin-top: 30px;
+}
+
+#food-list h2 {
+  margin-bottom: 10px;
+}
+
+#food-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#food-ul li {
+  margin-bottom: 5px;
 }
 
 footer {
