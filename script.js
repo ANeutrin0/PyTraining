@@ -1,16 +1,12 @@
-// 定义食物数组
+// 定义食物数组和分类对象
 const foods = ["火锅", "披萨", "寿司", "汉堡", "拉面", "饺子", "炒饭"];
+const foodCategories = {
+  "主食": ["米饭", "面条", "馒头"],
+  "小吃": ["薯条", "鸡翅", "鸭脖"],
+  "饮品": ["可乐", "咖啡", "奶茶"]
+};
 
-// 获取按钮和结果显示元素
-const randomButton = document.getElementById('randomButton');
-const foodResult = document.getElementById('foodResult');
-
-// 为按钮添加点击事件监听器
-randomButton.addEventListener('click', function () {
-  // 生成随机索引
-  const randomIndex = Math.floor(Math.random() * foods.length);
-  // 获取随机食物
-  const randomFood = foods[randomIndex];
-  // 显示随机食物
-  foodResult.textContent = `今天吃：${randomFood}`;
-});
+// 获取页面元素
+const newFoodInput = document.getElementById('new-food-input');
+const addFoodButton = document.getElementById('add-food-button');
+const categoryStaple = document.getElementById('category-staple
