@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  text-align: center;
+  padding: 50px;
+}
+
+#randomButton {
+  padding: 20px 40px;
+  font-size: 18px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#foodResult {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #dee2e6;
+}
